@@ -31,11 +31,11 @@ def create_patient(request):
                         "use": "mobile"
                     }                  
                 ],
-                "date_of_birth": request.POST.get('date_of_birth')
+                "birthDate": request.POST.get('date_of_birth')
             }
 
             json_data = json.dumps(data)
-
+            
             headers = {
                 'accept':"application/json",
                 'Content-Type':"application/json",
