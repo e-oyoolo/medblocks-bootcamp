@@ -1,0 +1,48 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+  <div class="content p-4">
+    <h2>Create Patient</h2>
+
+    <form method="POST" action="{% url 'app:create-patient' %}">
+      {% csrf_token %}
+      <div class="mb-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <label for="id_given_name" class="form-label">First Name</label>
+            <input type="text" class="form-control" name="given_name" id="id_given_name" required>      
+          </div>
+          <div class="col-lg-6">
+            <label for="id_family_name" class="form-label">Last Name</label>
+            <input type="text" class="form-control" name="family_name" id="id_family_name" required>      
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <label for="id_gender" class="form-label">Gender</label>
+            <select class="form-control" name="gender" id="id_gender" required>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="uknown">Unknown</option>
+              <option value="other">Other</option>
+            </select>     
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <label for="id_phone" class="form-label">Phone Number</label>
+            <input type="phone" name="phone" class="form-control" id="id_phone" required>      
+          </div>
+          <div class="col-lg-6">
+            <label for="id_date_of_birth" class="form-label">Date of Birth</label>
+            <div class="input-group">
+              <!-- <span class="input-group-text"><i class="bi bi-calendar"></i></span> -->
+              <input type="date" class="form-control" id="id_date_of_birth" name="date_of_birth" required>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+{% endblock %}

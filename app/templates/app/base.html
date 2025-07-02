@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>FHIR Patients</title>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{% url 'app:index' %}">HAPI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{% url 'app:create-patient' %}">Create Patient</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'app:list-patients' %}">List Patients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'app:search-patient' %}">Search Patient</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  {% if messages %}
+    {% for message in messages %}
+      <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+        {{ message }}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    {% endfor %}
+  {% endif %} 
+  {% block content %}
+
+  {% endblock %}
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+  <!-- <script>
+    const searchInput = document.getElementById('id_phone');
+  
+    const debouncedSearch = _.debounce(function(event) {
+      const query = event.target.value;
+      console.log(query)
+      fetch(`/search-patient-filter/?q=${query}`)
+        .then(response => response.json())
+        .then(data => {
+          // update results
+          console.log(data);
+        });
+    }, 500);  // wait 500ms after typing
+  
+    searchInput.addEventListener('input', debouncedSearch);
+  </script> -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const today = new Date().toISOString().split('T')[0];
+      document.getElementById("id_date_of_birth").setAttribute('max', today);
+    });
+  </script>
+  </body>
+</html>

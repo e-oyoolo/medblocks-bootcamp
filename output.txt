@@ -1,0 +1,1336 @@
+{
+  "resourceType": "Bundle",
+  "id": "f75c7335-2a01-4bff-a147-a1c44543d486",
+  "meta": {
+    "lastUpdated": "2025-07-02T09:38:17.054+00:00"
+  },
+  "type": "searchset",
+  "link": [ {
+    "relation": "self",
+    "url": "https://hapi.fhir.org/baseR4/Patient"
+  }, {
+    "relation": "next",
+    "url": "https://hapi.fhir.org/baseR4?_getpages=f75c7335-2a01-4bff-a147-a1c44543d486&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+  } ],
+  "entry": [ {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359468",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359468",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:47:42.322+00:00",
+        "source": "#Xtqjy6ugjU0s1WJ1"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bessie <b>SUTTON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>466327126</td></tr><tr><td>Address</td><td><span>Lajo Lane </span><br/><span>Osovci </span><span>NE </span></td></tr><tr><td>Date of birth</td><td><span>20 November 1956</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "466327126"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "anonymous",
+        "family": "Sutton",
+        "given": [ "Bessie" ]
+      } ],
+      "telecom": [ {
+        "system": "sms",
+        "value": "(666) 544-1797",
+        "use": "mobile"
+      } ],
+      "gender": "other",
+      "birthDate": "1956-11-20",
+      "deceasedBoolean": true,
+      "address": [ {
+        "use": "temp",
+        "type": "physical",
+        "line": [ "Lajo Lane" ],
+        "city": "Osovci",
+        "district": "Hotmasec",
+        "state": "NE",
+        "postalCode": "55121"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "U"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "ar"
+          } ],
+          "text": "Arabic"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359547",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359547",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:48:17.637+00:00",
+        "source": "#Vw2PSEiOq56mGSin"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ray <b>GORDON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>134098549</td></tr><tr><td>Address</td><td><span>Heos Heights </span><br/><span>Hipecleb </span><span>MT </span></td></tr><tr><td>Date of birth</td><td><span>22 September 1911</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "134098549"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "official",
+        "family": "Gordon",
+        "given": [ "Ray" ]
+      } ],
+      "telecom": [ {
+        "system": "fax",
+        "value": "(658) 839-2222",
+        "use": "mobile"
+      } ],
+      "gender": "female",
+      "birthDate": "1911-09-22",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "billing",
+        "type": "physical",
+        "line": [ "Heos Heights" ],
+        "city": "Hipecleb",
+        "district": "Osekijlac",
+        "state": "MT",
+        "postalCode": "00821"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "U"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "de"
+          } ],
+          "text": "English"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359566",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359566",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:48:25.543+00:00",
+        "source": "#L729Qxv0uH4cIs2M"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Blanche <b>HINES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>655069051</td></tr><tr><td>Address</td><td><span>Tedgot Extension </span><br/><span>Ucemisu </span><span>OK </span></td></tr><tr><td>Date of birth</td><td><span>08 September 1955</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "655069051"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "official",
+        "family": "Hines",
+        "given": [ "Blanche" ]
+      } ],
+      "telecom": [ {
+        "system": "fax",
+        "value": "(951) 427-8185",
+        "use": "work"
+      } ],
+      "gender": "other",
+      "birthDate": "1955-09-08",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "work",
+        "type": "both",
+        "line": [ "Tedgot Extension" ],
+        "city": "Ucemisu",
+        "district": "Rufivuh",
+        "state": "OK",
+        "postalCode": "19903"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "D"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "ar"
+          } ],
+          "text": "German"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359616",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359616",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:48:49.587+00:00",
+        "source": "#kZTSHattUdGaH12E"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Eliza <b>MORRIS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>108470029</td></tr><tr><td>Address</td><td><span>Wezwaf Trail </span><br/><span>Jogekze </span><span>WY </span></td></tr><tr><td>Date of birth</td><td><span>08 January 1928</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "108470029"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "official",
+        "family": "Morris",
+        "given": [ "Eliza" ]
+      } ],
+      "telecom": [ {
+        "system": "fax",
+        "value": "(642) 835-2181",
+        "use": "work"
+      } ],
+      "gender": "unknown",
+      "birthDate": "1928-01-08",
+      "deceasedBoolean": true,
+      "address": [ {
+        "use": "home",
+        "type": "both",
+        "line": [ "Wezwaf Trail" ],
+        "city": "Jogekze",
+        "district": "Bocidep",
+        "state": "WY",
+        "postalCode": "82715"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "M"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "en"
+          } ],
+          "text": "Arabic"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359659",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359659",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:49:11.349+00:00",
+        "source": "#s58Y9YutOqgUcCAt"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Harry <b>SIMMONS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>854168369</td></tr><tr><td>Address</td><td><span>Jonlu Road </span><br/><span>Kuruig </span><span>GA </span></td></tr><tr><td>Date of birth</td><td><span>30 April 1985</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "854168369"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "temp",
+        "family": "Simmons",
+        "given": [ "Harry" ]
+      } ],
+      "telecom": [ {
+        "system": "fax",
+        "value": "(679) 766-9774",
+        "use": "temp"
+      } ],
+      "gender": "male",
+      "birthDate": "1985-04-30",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "billing",
+        "type": "physical",
+        "line": [ "Jonlu Road" ],
+        "city": "Kuruig",
+        "district": "Geficuze",
+        "state": "GA",
+        "postalCode": "26024"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "U"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "en"
+          } ],
+          "text": "Arabic"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359684",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359684",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:49:23.641+00:00",
+        "source": "#LzNkvHYQNkQvPTBN"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Evan <b>CHRISTENSEN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>349549925</td></tr><tr><td>Address</td><td><span>Lidba Lane </span><br/><span>Mifpalezo </span><span>NH </span></td></tr><tr><td>Date of birth</td><td><span>16 May 1948</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "349549925"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "family": "Christensen",
+        "given": [ "Evan" ]
+      } ],
+      "telecom": [ {
+        "system": "fax",
+        "value": "(319) 928-6365",
+        "use": "mobile"
+      } ],
+      "gender": "female",
+      "birthDate": "1948-05-16",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "temp",
+        "type": "physical",
+        "line": [ "Lidba Lane" ],
+        "city": "Mifpalezo",
+        "district": "Guknebhan",
+        "state": "NH",
+        "postalCode": "97000"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "M"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "de"
+          } ],
+          "text": "English"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359750",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359750",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:49:58.498+00:00",
+        "source": "#rI4vIWZsGhd8iny7"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Hilda <b>LOPEZ </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>003208677</td></tr><tr><td>Address</td><td><span>Reman Ridge </span><br/><span>Raosso </span><span>NM </span></td></tr><tr><td>Date of birth</td><td><span>05 March 1922</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "003208677"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "anonymous",
+        "family": "Lopez",
+        "given": [ "Hilda" ]
+      } ],
+      "telecom": [ {
+        "system": "fax",
+        "value": "(545) 294-5722",
+        "use": "temp"
+      } ],
+      "gender": "other",
+      "birthDate": "1922-03-05",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "work",
+        "type": "physical",
+        "line": [ "Reman Ridge" ],
+        "city": "Raosso",
+        "district": "Gugulgot",
+        "state": "NM",
+        "postalCode": "68952"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "M"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "en"
+          } ],
+          "text": "German"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359780",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359780",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:50:13.048+00:00",
+        "source": "#lVGQsW63xSCU2Sie"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jordan <b>CAMPBELL </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>365711419</td></tr><tr><td>Address</td><td><span>Sidu Path </span><br/><span>Ujrumjij </span><span>NC </span></td></tr><tr><td>Date of birth</td><td><span>25 November 1902</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "365711419"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "temp",
+        "family": "Campbell",
+        "given": [ "Jordan" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(787) 967-1813",
+        "use": "mobile"
+      } ],
+      "gender": "female",
+      "birthDate": "1902-11-25",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "billing",
+        "type": "both",
+        "line": [ "Sidu Path" ],
+        "city": "Ujrumjij",
+        "district": "Nebopo",
+        "state": "NC",
+        "postalCode": "79529"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "S"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "en"
+          } ],
+          "text": "Arabic"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359744",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359744",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:49:54.528+00:00",
+        "source": "#YdkQnt2pdGqRrYjl"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jayden <b>CASTRO </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>669107257</td></tr><tr><td>Address</td><td><span>Uzafe Turnpike </span><br/><span>Isvuvu </span><span>AZ </span></td></tr><tr><td>Date of birth</td><td><span>11 March 1996</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "669107257"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "maiden",
+        "family": "Castro",
+        "given": [ "Jayden" ]
+      } ],
+      "telecom": [ {
+        "system": "fax",
+        "value": "(263) 907-2929",
+        "use": "temp"
+      } ],
+      "gender": "other",
+      "birthDate": "1996-03-11",
+      "deceasedBoolean": true,
+      "address": [ {
+        "use": "temp",
+        "type": "both",
+        "line": [ "Uzafe Turnpike" ],
+        "city": "Isvuvu",
+        "district": "Worjelgoc",
+        "state": "AZ",
+        "postalCode": "90523"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "S"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "ar"
+          } ],
+          "text": "Arabic"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359751",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359751",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:49:58.969+00:00",
+        "source": "#IFW79d5czyW4irfF"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Rhoda <b>COLE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>263689166</td></tr><tr><td>Address</td><td><span>Olte Parkway </span><br/><span>Unifno </span><span>NE </span></td></tr><tr><td>Date of birth</td><td><span>16 December 1972</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "263689166"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "official",
+        "family": "Cole",
+        "given": [ "Rhoda" ]
+      } ],
+      "telecom": [ {
+        "system": "fax",
+        "value": "(238) 518-2933",
+        "use": "work"
+      } ],
+      "gender": "unknown",
+      "birthDate": "1972-12-16",
+      "deceasedBoolean": true,
+      "address": [ {
+        "use": "home",
+        "type": "postal",
+        "line": [ "Olte Parkway" ],
+        "city": "Unifno",
+        "district": "Fahivpu",
+        "state": "NE",
+        "postalCode": "95091"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "W"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "en"
+          } ],
+          "text": "Arabic"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359797",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359797",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:50:20.148+00:00",
+        "source": "#8Z1A1gXwHwn7SHrD"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Benjamin <b>HILL </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>689977658</td></tr><tr><td>Address</td><td><span>Pefzad View </span><br/><span>Nagnesu </span><span>NJ </span></td></tr><tr><td>Date of birth</td><td><span>24 March 1900</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "689977658"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "anonymous",
+        "family": "Hill",
+        "given": [ "Benjamin" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(602) 342-3604",
+        "use": "work"
+      } ],
+      "gender": "female",
+      "birthDate": "1900-03-24",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "work",
+        "type": "physical",
+        "line": [ "Pefzad View" ],
+        "city": "Nagnesu",
+        "district": "Zekcifo",
+        "state": "NJ",
+        "postalCode": "16910"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "S"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "en"
+          } ],
+          "text": "English"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359886",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359886",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:51:00.411+00:00",
+        "source": "#2qVURlsZCkbL1lm8"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Dean <b>ALLISON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>393176689</td></tr><tr><td>Address</td><td><span>Lojif River </span><br/><span>Pobvepke </span><span>RI </span></td></tr><tr><td>Date of birth</td><td><span>22 December 1933</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "393176689"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "family": "Allison",
+        "given": [ "Dean" ]
+      } ],
+      "telecom": [ {
+        "system": "fax",
+        "value": "(418) 520-6561",
+        "use": "temp"
+      } ],
+      "gender": "unknown",
+      "birthDate": "1933-12-22",
+      "deceasedBoolean": true,
+      "address": [ {
+        "use": "work",
+        "type": "postal",
+        "line": [ "Lojif River" ],
+        "city": "Pobvepke",
+        "district": "Wohohuih",
+        "state": "RI",
+        "postalCode": "52429"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "D"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "en"
+          } ],
+          "text": "Arabic"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359799",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359799",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:50:21.078+00:00",
+        "source": "#Qs4NY6c9RjeK405L"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Lucile <b>TATE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>978243323</td></tr><tr><td>Address</td><td><span>Ewpa Lane </span><br/><span>Sikozi </span><span>NE </span></td></tr><tr><td>Date of birth</td><td><span>25 April 1926</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "978243323"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "family": "Tate",
+        "given": [ "Lucile" ]
+      } ],
+      "telecom": [ {
+        "system": "fax",
+        "value": "(650) 873-4299",
+        "use": "temp"
+      } ],
+      "gender": "unknown",
+      "birthDate": "1926-04-25",
+      "deceasedBoolean": true,
+      "address": [ {
+        "use": "billing",
+        "type": "physical",
+        "line": [ "Ewpa Lane" ],
+        "city": "Sikozi",
+        "district": "Imaakve",
+        "state": "NE",
+        "postalCode": "90452"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "M"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "en"
+          } ],
+          "text": "Arabic"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359925",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359925",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:51:18.245+00:00",
+        "source": "#jyfeFiA9NBplWoF4"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Elsie <b>BLAKE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>843334173</td></tr><tr><td>Address</td><td><span>Emepe Street </span><br/><span>Toivve </span><span>ME </span></td></tr><tr><td>Date of birth</td><td><span>07 January 1928</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "843334173"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "usual",
+        "family": "Blake",
+        "given": [ "Elsie" ]
+      } ],
+      "telecom": [ {
+        "system": "sms",
+        "value": "(587) 706-7975",
+        "use": "temp"
+      } ],
+      "gender": "unknown",
+      "birthDate": "1928-01-07",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "work",
+        "type": "both",
+        "line": [ "Emepe Street" ],
+        "city": "Toivve",
+        "district": "Ofgodon",
+        "state": "ME",
+        "postalCode": "45825"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "W"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "ar"
+          } ],
+          "text": "Arabic"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359934",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359934",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:51:21.791+00:00",
+        "source": "#qo8N4Wsnao3bpBH3"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Henrietta <b>PITTMAN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>348138369</td></tr><tr><td>Address</td><td><span>Emdub View </span><br/><span>Cavorruc </span><span>CO </span></td></tr><tr><td>Date of birth</td><td><span>21 May 1907</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "348138369"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "anonymous",
+        "family": "Pittman",
+        "given": [ "Henrietta" ]
+      } ],
+      "telecom": [ {
+        "system": "sms",
+        "value": "(231) 797-9403",
+        "use": "work"
+      } ],
+      "gender": "female",
+      "birthDate": "1907-05-21",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "work",
+        "type": "physical",
+        "line": [ "Emdub View" ],
+        "city": "Cavorruc",
+        "district": "Zucicci",
+        "state": "CO",
+        "postalCode": "69723"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "D"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "de"
+          } ],
+          "text": "English"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10359988",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10359988",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:51:46.814+00:00",
+        "source": "#CX7Ya6PO9o2uMkqM"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Harvey <b>MILES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>822379745</td></tr><tr><td>Address</td><td><span>Jegwu Ridge </span><br/><span>Hotoap </span><span>KY </span></td></tr><tr><td>Date of birth</td><td><span>09 March 1944</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "822379745"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "official",
+        "family": "Miles",
+        "given": [ "Harvey" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(459) 371-9365",
+        "use": "temp"
+      } ],
+      "gender": "unknown",
+      "birthDate": "1944-03-09",
+      "deceasedBoolean": true,
+      "address": [ {
+        "use": "work",
+        "type": "postal",
+        "line": [ "Jegwu Ridge" ],
+        "city": "Hotoap",
+        "district": "Jokbaku",
+        "state": "KY",
+        "postalCode": "02630"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "S"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "ar"
+          } ],
+          "text": "Arabic"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10360036",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10360036",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:52:09.236+00:00",
+        "source": "#VCyJPk0qOab9yBsQ"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Zachary <b>NUNEZ </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>312899850</td></tr><tr><td>Address</td><td><span>Vuvrap Ridge </span><br/><span>Nazbebkoc </span><span>OK </span></td></tr><tr><td>Date of birth</td><td><span>24 April 1937</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "312899850"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "anonymous",
+        "family": "Nunez",
+        "given": [ "Zachary" ]
+      } ],
+      "telecom": [ {
+        "system": "fax",
+        "value": "(402) 565-2336",
+        "use": "work"
+      } ],
+      "gender": "unknown",
+      "birthDate": "1937-04-24",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "work",
+        "type": "postal",
+        "line": [ "Vuvrap Ridge" ],
+        "city": "Nazbebkoc",
+        "district": "Duofwub",
+        "state": "OK",
+        "postalCode": "14760"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "W"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "de"
+          } ],
+          "text": "English"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10360040",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10360040",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:52:11.443+00:00",
+        "source": "#2ejAY0qzbppinpcn"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jeff <b>ORTEGA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>217975319</td></tr><tr><td>Address</td><td><span>Izalu Manor </span><br/><span>Nurwudpu </span><span>MT </span></td></tr><tr><td>Date of birth</td><td><span>17 September 1994</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "217975319"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "family": "Ortega",
+        "given": [ "Jeff" ]
+      } ],
+      "telecom": [ {
+        "system": "sms",
+        "value": "(422) 836-9987",
+        "use": "mobile"
+      } ],
+      "gender": "unknown",
+      "birthDate": "1994-09-17",
+      "deceasedBoolean": true,
+      "address": [ {
+        "use": "temp",
+        "type": "physical",
+        "line": [ "Izalu Manor" ],
+        "city": "Nurwudpu",
+        "district": "Gelhoconi",
+        "state": "MT",
+        "postalCode": "48961"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "W"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "en"
+          } ],
+          "text": "German"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10360380",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10360380",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:54:55.218+00:00",
+        "source": "#trl5U3hfTCGpyxta"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Dora <b>COBB </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>289174767</td></tr><tr><td>Address</td><td><span>Hemas Glen </span><br/><span>Ugazonum </span><span>CT </span></td></tr><tr><td>Date of birth</td><td><span>01 September 1912</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "289174767"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "maiden",
+        "family": "Cobb",
+        "given": [ "Dora" ]
+      } ],
+      "telecom": [ {
+        "system": "other",
+        "value": "(720) 569-8760",
+        "use": "work"
+      } ],
+      "gender": "female",
+      "birthDate": "1912-09-01",
+      "deceasedBoolean": true,
+      "address": [ {
+        "use": "home",
+        "type": "both",
+        "line": [ "Hemas Glen" ],
+        "city": "Ugazonum",
+        "district": "Semfajaw",
+        "state": "CT",
+        "postalCode": "86361"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "U"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "ar"
+          } ],
+          "text": "German"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://hapi.fhir.org/baseR4/Patient/10360517",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "10360517",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-04-24T14:55:58.792+00:00",
+        "source": "#CtHOSCBgELCEzkTU"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Louise <b>STEELE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>294986726</td></tr><tr><td>Address</td><td><span>Zavaj Manor </span><br/><span>Darmagve </span><span>OK </span></td></tr><tr><td>Date of birth</td><td><span>26 April 1904</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "294986726"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "usual",
+        "family": "Steele",
+        "given": [ "Louise" ]
+      } ],
+      "telecom": [ {
+        "system": "other",
+        "value": "(645) 688-7646",
+        "use": "temp"
+      } ],
+      "gender": "male",
+      "birthDate": "1904-04-26",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "temp",
+        "type": "postal",
+        "line": [ "Zavaj Manor" ],
+        "city": "Darmagve",
+        "district": "Irowitos",
+        "state": "OK",
+        "postalCode": "54356"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "U"
+        } ]
+      },
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "http://tools.ietf.org/html/bcp47",
+            "code": "en"
+          } ],
+          "text": "English"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}

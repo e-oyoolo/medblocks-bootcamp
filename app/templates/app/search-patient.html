@@ -1,0 +1,56 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+  <div class="content p-4">
+  <h2>Search Patient</h2>
+  <form method="POST" action="{% url 'app:search-patient' %}">
+    {% csrf_token %}
+    <div class="mb-3">
+      <div class="row">
+        <div class="col-lg-6">
+          <label for="id_search_filter" class="form-label">Search Filter</label>
+          <select class="form-control" name="search_filter" id="id_search_filter" required>
+            <option value="name">Name</option>
+            <option value="phone_number">Phone Number</option>
+          </select>     
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <label for="id_phone" class="form-label">Phone Number</label>
+          <input type="text" name="phone" class="form-control" id="id_phone">
+        </div>
+        <div class="col-lg-6">
+          <label for="id_name" class="form-label">Name</label>
+          <input type="text" name="name" class="form-control" id="id_name">      
+        </div>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+    <h2>Patients List</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Gender</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Date of Birth</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for patient in patients  %}
+          <tr>
+            <td><a href="{% url 'app:update-patient' patient.ID %}">{{ patient.ID }}</a></td>
+            <td>{{ patient.Name }}</td>
+            <td>{{ patient.Gender }}</td>
+            <td>{{ patient.PhoneNumber }}</td>
+            <td>{{ patient.DateOfBirth }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  
+  </div>
+{% endblock %}
