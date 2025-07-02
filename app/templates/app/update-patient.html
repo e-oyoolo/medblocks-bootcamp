@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Update Patient</title>   
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-</head>
-<body>
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+  <div class="content p-4">
   <h2>Update Patient</h2>
   {% if messages %}
     {% for message in messages %}
@@ -61,18 +54,4 @@
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const select = document.getElementById('id_gender');
-    //   select.value = 'female';  // Set the value programmatically
-        Array.from(select.options).forEach(option => {
-        option.selected = false;
-        });  // Trigger the change event
-    });
-  </script>  
-</body>
-</html>
+{% endblock %}
